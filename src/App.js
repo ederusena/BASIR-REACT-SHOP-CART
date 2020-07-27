@@ -1,10 +1,13 @@
 import React from 'react';
 
-
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div className="grid-container">
+      <header>
+        <a href="/">React Shopping Cart</a>
+      </header>
+      <main>Product List</main>
+      <footer>All right is reserved.</footer>
     </div>
   );
 }
